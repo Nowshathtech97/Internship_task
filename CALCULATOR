@@ -1,0 +1,32 @@
+print("Simple Calculator")
+
+
+first_value = float(input("Enter the First value ="))
+second_value = float(input("Enter the Second value ="))
+
+print("The Values of operations are:")
+print("1 for Addition")
+print("2 for Subraction")
+print("3 for Multiplication")    
+print("4 for Division") 
+
+Select_operation = int(input("Select the Value of operation to perform ="))
+
+if Select_operation == 1:
+    Total=first_value+second_value
+    print("The Total is = ",Total)
+
+elif Select_operation == 2:
+    Difference=first_value-second_value
+    print("The Difference is = ",Difference)
+    
+elif Select_operation == 3:
+    Product=first_value*second_value
+    print("The Product is = ",Product)
+ 
+elif Select_operation == 4:
+    Division=first_value/second_value
+    print("The division is = ",Division)
+    
+else:
+    print("Unavailable Selection!!!")
